@@ -10,26 +10,23 @@ st.set_page_config(page_title="Churn Prediction", layout="wide")
 
 st.markdown("""
     <style>
-    /* primary button uses neutral blue */
     .stButton>button {
         width: 100%;
-        background-color: #1f77b4;
+        background-color: #FF4B4B;
         color: white;
-        font-weight: 600;
-        padding: 0.5rem 1rem;
-        border-radius: 6px;
+        font-weight: bold;
+        padding: 0.5rem;
+        border-radius: 10px;
     }
-    /* prediction box subtle borders */
     .prediction-box {
-        padding: 1rem;
-        border-radius: 6px;
+        padding: 1.5rem;
+        border-radius: 10px;
         text-align: center;
-        font-size: 1.2rem;
-        font-weight: 600;
-        border: 1px solid #ccc;
+        font-size: 1.3rem;
+        font-weight: bold;
     }
-    .churn { background-color: #ffecec; color: #a41e1e; }
-    .no-churn { background-color: #e9f5ec; color: #1e6f3e; }
+    .churn { background-color: #ffebee; color: #c62828; }
+    .no-churn { background-color: #e8f5e9; color: #2e7d32; }
     </style>
 """, unsafe_allow_html=True)
 

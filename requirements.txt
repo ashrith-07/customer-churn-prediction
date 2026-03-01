@@ -6,6 +6,3 @@ seaborn
 streamlit
 plotly
 altair==4.2.2
-
-# install the imghdr shim as a package so it lands in site-packages
--e .
